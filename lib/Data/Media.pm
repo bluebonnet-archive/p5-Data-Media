@@ -1,4 +1,4 @@
-package Data::Multimedia;
+package Data::Media;
 
 use strict;
 use warnings;

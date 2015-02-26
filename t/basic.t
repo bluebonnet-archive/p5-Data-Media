@@ -1,10 +1,10 @@
 use Test::Most;
 
-use Data::Multimedia::Type::Image::PNG;
-use Data::Multimedia::Converter;
+use Data::Media::Type::Image::PNG;
+use Data::Media::Converter;
 
-Data::Multimedia::Type::Image::PNG->new( data => '...' );
-Data::Multimedia::Converter->convert( from => $png, to => 'Data::Multimedia::Type::Image::JPEG' );
+Data::Media::Type::Image::PNG->new( data => '...' );
+Data::Media::Converter->convert( from => $png, to => 'Data::Media::Type::Image::JPEG' );
 
 
 done_testing;

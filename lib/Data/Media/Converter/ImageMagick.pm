@@ -1,4 +1,4 @@
-package Data::Multimedia::Converter::ImageMagick;
+package Data::Media::Converter::ImageMagick;
 
 use strict;
 use warnings;
@@ -9,7 +9,7 @@ use Moo;
 has types => ( is => 'ro',
 	default => sub {
 		qw/
-		Data::Multimedia::Type::Image::PNG
+		Data::Media::Type::Image::PNG
 		/;
 	});
 

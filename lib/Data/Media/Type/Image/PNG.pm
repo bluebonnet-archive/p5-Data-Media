@@ -1,9 +1,8 @@
-package Data::Multimedia::Type::Image::PNG;
+package Data::Media::Type::Image::PNG;
 
 use strict;
 use warnings;
 use Moo;
-# TODO
 
 has mimetype => ( default => sub { 'image/png' } );
 
